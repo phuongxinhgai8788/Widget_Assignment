@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.example.widgetassignment.FunctionalActivity"
+    android:initialLayout="@layout/music_widget"
+    android:minWidth="250dp"
+    android:minHeight="40dp"
+    android:previewImage="@mipmap/ic_launcher_foreground"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="keyguard|home_screen" />

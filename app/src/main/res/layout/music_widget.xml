@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.WidgetAssignment.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:theme="@style/Theme.WidgetAssignment.AppWidgetContainer">
+
+    <ImageView
+        android:id="@+id/album"
+        style="@style/Widget.WidgetAssignment.AppWidget.InnerView"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher_foreground"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/play_prev_btn"
+            android:src="@drawable/play_previous"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/pause"
+            android:src="@drawable/ic_pause"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:id="@+id/play_next_btn"
+            android:src="@drawable/ic_next"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
